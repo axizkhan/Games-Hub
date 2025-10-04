@@ -1,16 +1,108 @@
-# React + Vite
+🎮 Fun Games Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fun Games Hub is an open-source collection of mini-games built with React + Vite. It provides a modular platform where developers can add new games, improve existing ones, or enhance the UI/UX. Players can enjoy classic games like Tic Tac Toe, Memory Match, and Snake directly in the browser.
 
-Currently, two official plugins are available:
+This repository is part of Hacktoberfest 🍂, and contributions are highly encouraged! Add new games to the homepage, implement new features in existing games, or improve the overall design and interactivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features (Planned & Ongoing)
 
-## React Compiler
+🕹️ Mini-Games Hub – Play multiple games from a single platform
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+❌ Tic Tac Toe – Classic 3x3 game
 
-## Expanding the ESLint configuration
+🃏 Memory Match – Flip cards and find pairs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🐍 Snake – Navigate the snake to collect food and grow
+
+🧩 Modular Game System – Easily add new games to the hub
+
+🎨 Modern UI – Clean and responsive design with CSS
+
+📱 Responsive Design – Works seamlessly on desktop and mobile
+
+🛠️ Hacktoberfest-Friendly – Contributors can add new games, features, or UI improvements
+
+🛠️ Tech Stack
+
+Frontend: React 18, Vite
+
+Routing: React Router DOM
+
+State Management: React useState & useEffect (per-game)
+
+Styling: CSS / TailwindCSS compatible
+
+Other Utilities: None (can be added by contributors per game)
+
+📂 Project Structure
+fun-games-hub/
+├── public/                 # Static assets (favicon, images)
+├── src/
+│   ├── components/         # Shared UI components (Nav, GameCard)
+│   ├── pages/              # Game pages (TicTacToePage, MemoryPage, SnakePage)
+│   └── games/              # Game implementations (TicTacToe, Memory, Snake)
+├── index.html
+├── styles.css              # Global styles
+├── package.json
+├── vite.config.js
+├── README.md
+├── CONTRIBUTING.md
+└── ISSUE_TEMPLATE.md
+
+
+Contributor Guidelines:
+
+Add your game inside src/games/
+
+Create a corresponding page in src/pages/
+
+Link your game in App.jsx and the homepage (Home.jsx)
+
+Update the homepage to display your game card
+
+🚀 Getting Started
+
+Clone the repository
+
+git clone https://github.com/<your-username>/fun-games-hub.git
+cd fun-games-hub
+
+
+Install dependencies
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser
+
+🎯 How to Contribute
+
+Fork the repository
+
+Create a new branch for your feature: git checkout -b feat-new-game
+
+Add your game in src/games/ and create a page in src/pages/
+
+Update the homepage (Home.jsx) with a new GameCard
+
+Commit your changes, push, and open a Pull Request
+
+💡 Suggestions for contributions:
+
+Add new games (e.g., Chess, Connect 4, Pong)
+
+Add features to existing games (scores, levels, themes)
+
+Improve UI animations or responsiveness
+
+Add game-specific settings or sound effects
