@@ -1,0 +1,37 @@
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0f172a;
+  color:#f8fafc;
+}
+
+.container { padding:20px; }
+
+.nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 20px;
+  background:#1e293b;
+}
+
+.logo { font-weight:bold; color:#38bdf8; text-decoration:none; }
+.nav-links a { margin-left:15px; color:#f8fafc; text-decoration:none; }
+.nav-links a.active { border-bottom:2px solid #38bdf8; }
+
+.hero { text-align:center; margin:20px 0; }
+.games-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+
+.game-card { background:#1e293b; padding:15px; border-radius:8px; }
+.btn { display:inline-block; margin-top:10px; padding:6px 12px; background:#38bdf8; color:#0f172a; border-radius:6px; text-decoration:none; }
+
+.board { display:grid; grid-template-columns:repeat(3,80px); gap:5px; margin:20px 0; }
+.cell { width:80px; height:80px; font-size:32px; background:#1e293b; border:none; border-radius:4px; color:#38bdf8; }
+
+.memory-grid { display:grid; grid-template-columns:repeat(4,70px); gap:10px; margin:20px 0; }
+.memory-card { width:70px; height:70px; font-size:28px; background:#1e293b; border:none; border-radius:6px; color:#f8fafc; }
+
+.snake-grid { display:grid; gap:2px; background:#1e293b; padding:4px; margin:20px auto; max-width:500px; }
+.cell { width:20px; height:20px; }
+.cell.snake { background:#38bdf8; }
+.cell.food { background:#f97316; }
