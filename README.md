@@ -1,4 +1,7 @@
-🎮 Fun Games Hub
+
+
+# 🎮 Fun Games Hub
+
 
 Fun Games Hub is an open-source collection of mini-games built with React + Vite. It provides a modular platform where developers can add new games, improve existing ones, or enhance the UI/UX. Players can enjoy classic games like Tic Tac Toe, Memory Match, and Snake directly in the browser.
 
@@ -6,25 +9,29 @@ This repository is part of Hacktoberfest 🍂, and contributions are highly enco
 
 Maintainer [GauravGirkar](https://github.com/GauravGirkar)
 
-✨ Features (Planned & Ongoing)
+## **✨ Features (Planned & Ongoing)**
 
-🕹️ Mini-Games Hub – Play multiple games from a single platform
+**🕹️ Mini-Games Hub** – Play multiple games from a single platform
 
-❌ Tic Tac Toe – Classic 3x3 game
+**❌ Tic Tac Toe** – Classic 3x3 game
 
-🃏 Memory Match – Flip cards and find pairs
+**🃏 Memory Match** – Flip cards and find pairs
 
-🐍 Snake – Navigate the snake to collect food and grow
+**🐍 Snake** – Navigate the snake to collect food and grow
 
-🧩 Modular Game System – Easily add new games to the hub
+**🧩 Modular Game System** – Easily add new games to the hub
 
-🎨 Modern UI – Clean and responsive design with CSS
+**🎨 Modern UI** – Clean and responsive design with CSS
 
-📱 Responsive Design – Works seamlessly on desktop and mobile
+**📱 Responsive Design** – Works seamlessly on desktop and mobile
 
-🛠️ Hacktoberfest-Friendly – Contributors can add new games, features, or UI improvements
+**🛠️ Hacktoberfest-Friendly** – Contributors can add new games, features, or UI improvements
 
-🛠️ Tech Stack
+
+
+## 🛠️ Tech Stack
+
+
 
 Frontend: React 18, Vite
 
@@ -36,7 +43,11 @@ Styling: CSS / TailwindCSS compatible
 
 Other Utilities: None (can be added by contributors per game)
 
-📂 Project Structure
+
+
+## 📂 Project Structure
+
+
 fun-games-hub/
 ├── public/                 # Static assets (favicon, images)
 ├── src/
@@ -52,7 +63,11 @@ fun-games-hub/
 └── ISSUE_TEMPLATE.md
 
 
-Contributor Guidelines:
+
+
+## Contributor Guidelines:
+
+
 
 Add your game inside src/games/
 
@@ -62,44 +77,66 @@ Link your game in App.jsx and the homepage (Home.jsx)
 
 Update the homepage to display your game card
 
-🚀 Getting Started
-
-Clone the repository
-
-git clone https://github.com/<your-username>/fun-games-hub.git
-cd fun-games-hub
 
 
-Install dependencies
+## 🚀 Getting Started
 
-npm install
+
+
+**Clone the repository**
+
+    git clone https://github.com/<your-username>/fun-games-hub.git
+    cd fun-games-hub
+
+
+**Install dependencies**
+
+    npm install
+
 # or
-yarn install
+
+    yarn install
+
 # or
-pnpm install
+
+    pnpm install
 
 
-Start the development server
+**Start the development server**
 
-npm run dev
+    npm run dev
 
 
-Open http://localhost:5173
- in your browser
+Open http://localhost:5173  in your browser
 
-🎯 How to Contribute
 
-Fork the repository
 
-Create a new branch for your feature: git checkout -b feat-new-game
+## 🎯 How to Contribute
 
-Add your game in src/games/ and create a page in src/pages/
 
-Update the homepage (Home.jsx) with a new GameCard
+We welcome contributions to **Fun Game Hub**! If you would like to contribute, please follow these steps:
 
-Commit your changes, push, and open a Pull Request
+**1.  Fork the repository.**
+    
+**2.  Create a new branch:**
+    
+    git checkout -b Game/YourGame
+    
+**3.  Make your changes and commit them:**
+    
+    git commit -m "Add your message here"
+    
+**4.  Push to the branch:**
+    
+    git push origin Game/YourGame
+    
+**5.  Open a pull request.**
+    
 
-💡 Suggestions for contributions:
+Please ensure your code follows our coding standards and includes tests where applicable.
+
+
+## 💡 Suggestions for contributions:
 
 Add new games (e.g., Chess, Connect 4, Pong)
 
